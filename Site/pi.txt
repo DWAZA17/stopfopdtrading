@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        .navbar {
+            width: 1200px;
+            height: 75px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #ff7200;
+            font-size: 35px;
+            padding-left: 20px;
+        }
+        .menu ul {
+            display: flex;
+            list-style: none;
+        }
+        .menu ul li {
+            margin-left: 62px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+        .menu ul li a:hover {
+            color: #ff7200;
+        }
+        .title {
+            width: 1200px;
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .title h1 {
+            color: #ff7200;
+            font-size: 45px;
+        }
+        .container {
+            width: 1200px;
+            margin: auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #ff7200;
+            margin-top: 30px;
+            font-size: 28px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .project {
+            width: 350px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.151);
+            color: #ff7200;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="logo">STOPFORD TRADING</h2>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="title">
+        <h1>Our Projects</h1>
+    </div>
+    
+    <div class="container">
+        <p>The houses we built at Mpumalanga and Baobab were for ZPC, subcontracted by Sinohydro Corporation as part of the Unit 7 and 8 expansion project. Other projects include:</p>
+        
+        <div class="projects">
+            <div class="project">
+                <img src="donbosco.jpg" alt="House in Donbosco">
+                <p>Constructed a house in Donbosco 1736 for Mr. Moyo (2020).</p>
+            </div>
+            <div class="project">
+                <img src="lukosi.jpg" alt="Roofing Project">
+                <p>Roofed a house for Mr. S Munotengwa at Lukosi.</p>
+            </div>
+            <div class="project">
+                <img src="baobab.jpg" alt="Renovation Project">
+                <p>Renovated and painted a house for Mr. Rakabopa at Baobab.</p>
+            </div>
+            <div class="project">
+                <img src="coronation.jpg" alt="Hwange Colliery Renovation">
+                <p>Renovated a house for Hwange Colliery Company at 12 Coronation Drive.</p>
+            </div>
+            <div class="project">
+                <img src="sarfanco.jpg" alt="Sarfanco Renovation">
+                <p>Renovated a house for Sarfanco at 10 Sinderika Drive.</p>
+            </div>
+            <div class="project">
+                <img src="nssa.jpg" alt="Plumbing Repairs">
+                <p>Repaired the plumbing systems for NSSA at Compensation House, Hwange.</p>
+            </div>
+            <div class="project">
+                <img src="barloworld.jpg" alt="Workshop Renovation">
+                <p>Renovation works at Barloworld workshops.</p>
+            </div>
+            <div class="project">
+                <img src="stopford.jpg" alt="Stopford Trading Shop">
+                <p>Constructed a hardware and grocery shop, Stopford Trading.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 STOPFORD TRADING. All rights reserved.</p>
+    </footer>
+</body>
+</html>
